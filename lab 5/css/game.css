@@ -1,0 +1,18 @@
+.background    { background-image: url("http://www.webweaver.nu/clipart/img/web/backgrounds/space-sky/cartoon-clouds.jpg");
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: rgb(255, 100, 100); }
+.wall          { background-image: url("http://lodev.org/cgtutor/images/noiseturbulence64.jpg");   }
+.floater       { background: black;   }
+
+.actor  { position: absolute;  }
+.coin   { background: yellow; }
+.player { background: black; }
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
